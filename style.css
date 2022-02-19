@@ -1,0 +1,141 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Unicase:600,700&display=swap");
+
+@font-face {
+	font-family: "ClarencePro";
+	src: url("fonts/ClarencePro-006.woff2") format("woff2"), url("fonts/ClarencePro-006.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Kuloneth";
+	src: url("fonts/KulonethRegular.woff2") format("woff2"), url("fonts/KulonethRegular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "NedLTStd";
+	src: url("fonts/NedLTStd.woff2") format("woff2"), url("fonts/NedLTStd.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+	background: url(img/piramida_fon.jpg) fixed;
+	background-size: 100px;
+}
+
+.background {
+	max-width: 1250px;
+	background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+	margin: 0 auto;
+	text-indent: 30px;
+	box-shadow: 0px 30px 60px 30px rgb(0, 0, 0);
+}
+
+.header {
+	font-family: "Kuloneth";
+	font-size: 100px;
+	color: black;
+	text-align: center;
+	min-height: 280px;
+	padding: 30px;
+	background: url(img/header.jpg) fixed;
+	background-size: 1920px 400px;
+	margin-bottom: 20px;
+}
+
+.p-1 {
+	font-size: 20px;
+	min-width: 1000px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+	margin: 0px 20px 20px 20px;
+	box-shadow: 0px 30px 60px 30px rgb(11, 190, 214);
+}
+
+.p-2 {
+	font-size: 20px;
+	min-width: 1000px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+	margin: 0px 20px 20px 20px;
+	box-shadow: 0px 30px 60px 30px rgb(0, 0, 0);
+}
+
+.img {
+	background: url(img/Isez.gif), url(img/robo.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom, 100% 100%;
+	background-size: 100px, cover;
+	min-height: 801px;
+	font-family: "Kuloneth";
+	font-size: 100px;
+	color: black;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.img-2 {
+	background: url(img/Isez.gif) bottom repeat-x, url(img/piramida1.jpg) 100% / cover no-repeat;
+	background-size: 100px, cover;
+	min-height: 801px;
+	margin: 0px 10px 10px 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.img-3 {
+	background: url(img/Isez.gif) 270px 300px/100px no-repeat, url(img/Isez.gif) 890px 490px/50px no-repeat, url(img/3piramids.jpg) 100% / cover no-repeat;
+	/* background-size: 100px, cover; */
+	min-height: 800px;
+}
+
+.p-3 {
+	width: 600px;
+	margin: 0 0 0 auto;
+	padding-top: 10px;
+	text-align: left;
+}
+
+h2 {
+	font-family: "Kuloneth";
+	font-size: 100px;
+	color: black;
+	text-align: center;
+	padding: 20px;
+}
+
+h3 {
+	font-family: "Kuloneth";
+	font-size: 70px;
+	color: black;
+	text-align: right;
+	padding-top: 20px;
+}
+
+a {
+	display: block;
+	background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+	width: 600px;
+	height: 70px;
+	font-size: 30px;
+	color: black;
+	border: 5px solid black;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+}
